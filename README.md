@@ -19,9 +19,9 @@ ERD diagram:
 - user must have to create account with his name, email,password,and phone number(optional here but mandatory when he/she check-out)
 - each product(E-books) we will provide will have catigory type, description, book ID, picture of the book, quantity available, price, and customer reviews. 
 # aisha 
-  1- create a model class for Book , Genre, and customer with there attributes.
+  1- create a model class for Book and Genre  with there attributes.
   
-  2- create model class for purchase, inventory, and cart with there attributes.
+  2- create model class for purchase, inventory,customer,  and cart with there attributes.
   
   3- create relationship with each entity.
   
