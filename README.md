@@ -35,6 +35,8 @@ ERD diagram:
 
 - Adding a wishlist and a cart.
 
+- Add payment methods.
+
 # mshael    
 -
 
