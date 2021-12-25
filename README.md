@@ -9,7 +9,8 @@
 # project requirements:
 ERD diagram:
 <<<<<<< Updated upstream
-![ERD](![image](https://user-images.githubusercontent.com/93175552/147380849-9245538c-1720-4334-ace2-2ff2e4005490.png)
+![ERD](![image](![image (1)](https://user-images.githubusercontent.com/93175552/147390656-f587f13d-557e-4145-b2ab-159984892cbf.png)
+)
 =======
 
 >>>>>>> Stashed changes
