@@ -19,8 +19,11 @@ ERD diagram:
 2- each product(E-books) we will provide will have catigory type, description, book ID, picture of the book, quantity available, price, and customer reviews. 
 # aisha 
   3- search by product name
+  
   4- search by catigory
+  
   5- review the added items in the cart before checkout.
+  
 # fatima
 6-
 7-
