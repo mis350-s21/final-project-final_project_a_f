@@ -29,13 +29,13 @@ ERD diagram:
   5- view the e-books catigories and items with price only.
   
 # fatima    
-- Filter to list all books that belongs to a certain genre.
+6- Filter to list all books that belongs to a certain genre.
 
-- Filter to list all books that have been released in a specific year.
+7- Filter to list all books that have been released in a specific year.
 
-- Adding a wishlist and a cart.
+8- Adding a wishlist and a cart.
 
-- Add payment methods.
+9- Add payment methods.
 
 # mshael    
 -
