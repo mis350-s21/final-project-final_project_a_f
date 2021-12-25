@@ -9,4 +9,3 @@
 # project requirements:
 ERD diagram:
 ![ERD](![image](https://user-images.githubusercontent.com/93175552/147380849-9245538c-1720-4334-ace2-2ff2e4005490.png)
-)
