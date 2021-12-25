@@ -15,26 +15,30 @@ ERD diagram:
 >>>>>>> Stashed changes
 
 
-1- user must have to create account with his name, email,password,and phone number(optional here but mandatory when he/she check-out)
-2- each product(E-books) we will provide will have catigory type, description, book ID, picture of the book, quantity available, price, and customer reviews. 
+- user must have to create account with his name, email,password,and phone number(optional here but mandatory when he/she check-out)
+- each product(E-books) we will provide will have catigory type, description, book ID, picture of the book, quantity available, price, and customer reviews. 
 # aisha 
-  3- create a model class for Product , categories, and customer with there attributes.
+  1- create a model class for Product , categories, and customer with there attributes.
   
-  4- create model class for purchase, inventory, and cart with there attributes.
+  2- create model class for purchase, inventory, and cart with there attributes.
   
-  5- create relationship with each entity.
+  3- create relationship with each entity.
   
-# fatima
-6-
+  4- add search by item or catigory
+  
+  5- view the e-books catigories and items with price only.
+  
+# fatima    
+-
 
-7-
+-
 
-8-
+-
 
-# mshael
-9-
+# mshael    
+-
 
-10-
+-
 
-11-
+-
 
