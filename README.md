@@ -21,8 +21,5 @@
 
 ERD diagram:
 <<<<<<< Updated upstream
-![ERD](![image](![image (1)](https://user-images.githubusercontent.com/93175552/147390656-f587f13d-557e-4145-b2ab-159984892cbf.png)
-)
-=======
+![ERD](![image](https://user-images.githubusercontent.com/93175552/147416717-1952edcc-de53-484d-ab70-93d7b8a2fc5c.png)
 
->>>>>>> Stashed changes
