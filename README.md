@@ -1,6 +1,6 @@
 # Final Project
 ## Deadline
-- Jan 8th, the day you do the demonstrations
+- Jan 9th, the day you do the demonstrations
 
 ## Project member:
   - team leader: Aisha Aldurais
