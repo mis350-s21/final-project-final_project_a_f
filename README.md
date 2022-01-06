@@ -10,7 +10,7 @@
 # project requirements: 
 ### General Requirement
 -  User login (form): customer must enter his username and password to login.
--  User sign up (form): a user must fill information of username, e-mail, and password to sing up.
+-  User sign up (form): a user must fill information of username, e-mail, and password to sign up.
 ### User Requirement 
 -  In the main page:
 -  User can click a button for enter his/her details, user “must” enter his name, date of birth, email, phone, address, and credit card number is optional.
@@ -25,11 +25,11 @@
 ### Admin requirement:
 - In the admin page:
 - admin ask (info feilds customize) for customer details form with fields name, date of birth, email, phone, address, and credit card number.
-- admin can add many genre types and books , a book can related to one or more type. 
+- admin can add many genre types and books , a book can relate to one or more type. 
 - admin can add information for book to help customer buy it or search for it. 
 - book information are title, description, price, inventory location, serial number.
 - admin can add image (temp) for each book.
-- admin an count each book available in the inventory by book serial number
+- admin can count each book available in the inventory by book serial number
 - admin can control reviews by the user email  
 - admin can know a customer and book details in each order.
 
