@@ -37,7 +37,19 @@
 
 ### Additional requirement:
 
+#### Aisha:
+- In customer details info, user can tell us the names of genre she/he interested in by select genre image. 
+- Before pay process, in the checkout page User can add discount code.
+- In main page, a discount button for a page to see all books in discount only
+- In main page - other service button for page that user can sell a book in our website.
+- In main page - suggest button for user suggest by message.
+- Under each book, a likes by rate the book from 1 to 5.
+- each order of a book will decrese the book quantity in the inventory.
+
+
 ### Bouns + student name: 
+
+
 
 
 
