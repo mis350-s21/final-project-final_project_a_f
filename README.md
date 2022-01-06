@@ -19,7 +19,7 @@
 ### Admin requirement:
 - In the admin page:
 - admin (info feilds customize) for customer details form with fields name, date of birth, email, phone, address, and credit card number.
-- admin can add many genre types and book, a book can related to one or more type. 
+- admin can add many genre types and books , a book can related to one or more type. 
 
 
 ### Additional requirement (Bouns):
