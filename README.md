@@ -32,7 +32,7 @@
 - admin an count each book available in the inventory by book serial number
 - admin can control reviews by the user email  
 - admin can know a customer and book details in each order.
-- set a domain name ebook.com
+
 
 
 
@@ -46,6 +46,7 @@
 - In main page - suggest button for user suggest by message.
 - Under each book, a likes by rate the book from 1 to 5.
 - each order of a book will decrese the book quantity in the inventory.
+- set a domain name ebook.com
 
 
 ### Bouns + student name: 
