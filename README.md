@@ -23,6 +23,7 @@
 
 
 ### Admin requirement:
+## admin login: U:test  P:1234
 - In the admin page:
 - admin ask (info feilds customize) for customer details form with fields name, date of birth, email, phone, address, and credit card number.
 - admin can add many genre types and books , a book can relate to one or more type. 
