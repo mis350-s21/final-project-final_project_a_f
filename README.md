@@ -17,7 +17,7 @@
 
 ### Admin requirement:
 - In the admin page:
-- admin will create form for customer details with fields name, date of birth, email, phone, address, and credit card number is optional.
+- admin control the form creation info for customer details with fields name, date of birth, email, phone, address, and credit card number is optional.
 
 
 ### Additional requirement (Bouns):
