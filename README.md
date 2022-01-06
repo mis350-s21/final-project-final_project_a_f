@@ -14,10 +14,12 @@
 ### User Requirement 
 -  In the main page:
 -  User can click a button for enter his/her details, user “must” enter his name, date of birth, email, phone, address, and credit card number is optional.
+-  User can see genre drop-down list (book category) with many types and each type will contain books that will appear in the main-page.
 
 ### Admin requirement:
 - In the admin page:
 - admin (info feilds customize) for customer details form with fields name, date of birth, email, phone, address, and credit card number.
+- admin can add many genre types and book, a book can related to one or more type. 
 
 
 ### Additional requirement (Bouns):
