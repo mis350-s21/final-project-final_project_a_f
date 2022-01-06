@@ -26,11 +26,11 @@
 
 
 
+![image (1)](https://user-images.githubusercontent.com/93175552/148390811-21710096-054e-4ead-9b54-ebc3a842c6b8.png)
 
 
 
 
-![image](https://user-images.githubusercontent.com/93175552/148389643-794279bb-fe61-46bb-b8cb-f986c8ace50f.png)
 
 
 
