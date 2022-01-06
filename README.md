@@ -7,7 +7,7 @@
   - member1: Fatima Alfailakawi
   - member2: Mashael Alanezi
   
-# project requirements: e-book.com
+# project requirements: 
 ### General Requirement
 -  User login (form): customer must enter his username and password to login.
 -  User sign up (form): a user must fill information of username, e-mail, and password to sing up.
