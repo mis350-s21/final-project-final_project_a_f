@@ -18,8 +18,6 @@
  -  in the admin page- inventory will have number of total items in stock, and each perches will decrease book quantity in the store. 
 
 
+![image (2)](https://user-images.githubusercontent.com/93175552/148379638-9430817b-3d1d-432a-b775-69be87aa3d5f.png)
 
-ERD diagram:
-<<<<<<< Updated upstream
-![ERD](![image](https://user-images.githubusercontent.com/93175552/147416717-1952edcc-de53-484d-ab70-93d7b8a2fc5c.png)
 
