@@ -32,6 +32,7 @@
 - admin an count each book available in the inventory by book serial number
 - admin can control reviews by the user email  
 - admin can know a customer and book details in each order.
+- set a domain name ebook.com
 
 
 
