@@ -5,3 +5,11 @@ from . models import Customer, Order, Review, Book, Genre
 def main(request):
     data={}
     return render(request, "main.html", context=data)
+
+def signin(request):
+    data={}
+    return render(request, "signin.html", context=data)
+
+def signup(request):
+    data={}
+    return render(request, "signup.html", context=data)
