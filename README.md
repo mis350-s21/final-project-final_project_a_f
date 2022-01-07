@@ -13,7 +13,7 @@
 -  User sign up (form): a user must fill information of username, e-mail, and password to sign up.
 ### User Requirement 
 -  In the main page:
--  User can click a button for enter his/her details, user “must” enter his name, date of birth, email, phone, address, and credit card number is optional.
+-  User can click a button to enter his/her details, user “must” enter his name, date of birth, email, phone, address, and credit card number is optional.
 -  User can see genre drop-down list (book category) with many types and each type will contain books that will appear in the main-page.
 -  User can search for a book by title in a text box bar.
 - User can see how many book available under the book photo and title.  
