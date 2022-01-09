@@ -4,7 +4,7 @@ from .models import Customer, Order, Review
 # Register your models here.
 
 class CustomerAdmin(admin.ModelAdmin):
-  pass
+  list_display = ("CName", "date_of_birth", "email", "phone", "address")
 
 class OrderAdmin(admin.ModelAdmin):
   pass
