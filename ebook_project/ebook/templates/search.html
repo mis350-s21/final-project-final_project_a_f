@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search for a title</title>
+</head>
+<body>
+   <center><label><h1>Welcome to e-book Genre</h1></label></center>
+  <center><a href="/ebook/show/"><h3>BACK</h3></a></center>
+  <br>
+  <center><form action="/ebook/search/" method="get">
+        <input type="text" name="search">
+        <input type="submit" value="SEARCH">
+      </form></center><br>
+      <center><h2>search result:</h2><br></center>
+
+      {% if tt is not empty%}
+      <center><table border="1">
+        <tr>
+            <td><h3> book title </h3></td>
+            <td><h3> dicription </h3></td>
+            <td><h3> price </h3></td>
+        </tr>
+    
+        {% for p in title %}
+        <tr>
+          <td >{{ p.title }}</td>
+          <td >{{ p.discription }}</td>
+          <td >{{ p.price }}</td>
+        </tr>
+        {% endfor %}
+      </table></center>
+      {%else%}
+      <center><h3>to search please inter a single word or a title</h3></center>
+      {%endif%}
+      
+    
+</body>
+</html>
