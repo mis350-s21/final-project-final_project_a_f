@@ -1,6 +1,6 @@
 # Final Project
 ## Deadline
-- Jan 9th, the day you do the demonstrations
+- Jan 18th, the day you do the demonstrations
 
 # Project member:
   - team leader: Aisha Aldurais
@@ -14,9 +14,9 @@
 ### User Requirement 
 -  In the main page:
 -  User can click a button to enter his/her details, user “must” enter his name, date of birth, email, phone, address, and credit card number is optional.
--  User can see genre drop-down list (book category) with many types and each type will contain books that will appear in the main-page.
+-  User can see genre clickable list (book category) with many types and each type will contain books that will appear in separate page.
 -  User can search for a book by title in a text box bar.
-- User can see how many book available under the book photo and title.  
+- User can see how many book available with  the book photo and title.  
 - User can add a comment review under each book, but he must add the account email.
 - User can buy book by add a book in cart (add to cart under each book) 
 -  User can order and a Cart will open all added items with check out button, which will open a summary of items count with total price, fees, and pay now button.
