@@ -10,34 +10,32 @@
    <center><label><h1>Welcome to e-book Genre</h1></label></center>
   <center><a href="/ebook/show/"><h3>BACK</h3></a></center>
   <br>
-  <center><form action="search-title" method="get">
+  <center><form action="" method="get">
         <input type="text" name="title">
         <input type="submit" value="SEARCH">
       </form></center><br>
+      <center><h2>search result:</h2><br></center>
       
-      <center><h3>to search please inter a single word or a title</h3></center>
-      
+      {% if title_s is not empty%}
       <center><table border="1">
         <tr>
             <td><h3> book title </h3></td>
             <td><h3> dicription </h3></td>
             <td><h3> price </h3></td>
-            <td><h3> inventory </h3></td>
+            
         </tr>
-      {% for p in title %}
-      <tr>
-        <td >{{ p.title }}</td>
-        <td >{{ p.discription }}</td>
-        <td >{{ p.price }}</td>
-        <td >{{ p.inventory }}</td>
-        
-      </tr>
-      {% endfor %}
-    </table></center>
-    
-    
-     
+        {% for p in  title_s %}
+        <tr>
+          <td ><a href="/ebook/type/{{ p.title }}/">{{ p.title }}</a></td>
+          <td >{{ p.discription }}</td>
+          <td >{{ p.price }}</td>
+          
+        </tr>
+        {% endfor %}
       
+      {%else%}
+     <tr><td><h2>SORRY, NO RECORD FOUND</h2></td></tr>
     
-</body>
-</html>
+    
+    {%endif%}
+  </table></center>
