@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Books</title>
+</head>
+<body>
+    <h2>New Added Books</h2>
+    <table border="1"> 
+        <tr bgcolor="LightGrey">
+          <td align="center">Title</td>
+          <td align="center">Description</td>
+          <td align="center">Price</td>
+          <td align="center">Inventory</td>
+        </tr>
+
+        
+        {% for n in newbooks %}
+        <tr>
+            <td align="center">>{{ n.title }}</td>
+            <td align="center">{{ n.discription }}</td>
+            <td align="center">{{ n.price }}</td>
+            <td align="center">{{ n.inventory }}</td>
+          </tr>
+        {% endfor %}
+        </table>
+
+    
+</body>
+</html>
