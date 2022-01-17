@@ -1,7 +1,9 @@
-from django import forms
+
 from django.shortcuts import render, get_object_or_404,redirect
+
 from .models import Customer, Order, Review, Book, Genre
 from .forms import CustomerForm, BookForm
+
 # Create your views here.
 def main(request):
     data={}
@@ -68,9 +70,22 @@ def art_book(request):
     return render(request,"art.html")
 
 def search(request):
-  data = {}
-  #tt = request.GET["search"]
-  #sbook = Book.objects.filter(title__contains=tt)
-  #data['title'] = sbook
+  data = {} 
+  book = Book.objects.all()
+  data['title'] = book
   return render(request, "search.html", context=data)
-  
+
+def search_t(request,title):
+  data = {} 
+  title = request.GET["title"]
+  sbook = Book.objects.filter(title__icontains=title)
+  data['title_s'] = sbook
+  return render(request, "search_t.html", context=data)
+
+def show_type(request,title):
+    data={}
+    book=Book.objects.filter(title=title)
+    gener=Genre.objects.filter(type__contains=book)
+    data['title_s'] = book
+    data['type'] = gener
+    return render(request, "show_type.html", context=data)

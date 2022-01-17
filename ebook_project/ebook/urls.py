@@ -16,5 +16,7 @@ urlpatterns = [
     path('cook/',views.cook_book),
     path('art/',views.art_book),
     path('search/',views.search),
+    path('search/<str:title>/',views.search_t,name='search-title'),
+    path('type/<str:title>/',views.show_type),
 
 ]
