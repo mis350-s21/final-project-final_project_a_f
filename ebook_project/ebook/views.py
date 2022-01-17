@@ -1,7 +1,9 @@
 
 from django.shortcuts import render, get_object_or_404,redirect
-from .models import Book,Customer, Order, Review, Genre
-from .forms import CustomerForm
+
+from .models import Customer, Order, Review, Book, Genre
+from .forms import CustomerForm, BookForm
+
 # Create your views here.
 def main(request):
     data={}
@@ -25,10 +27,29 @@ def signup(request):
         return redirect("signin")
     return render(request, "signup.html", context=data)
 
+def cart(request):
+    data={}
+    return render(request,"cart.html", context=data)
+
+def new_books_list(request):
+    data={}
+    new_books = Book.objects.all()
+    data['newbooks'] = new_books
+    return render(request,"new_books_list.html", context=data)
+
+def create_book(request):
+    data = {}
+    f = BookForm(request.POST or None)
+    data["form"] = f
+    if f.is_valid():
+        f.save()
+        return redirect("new_books_list")
+    return render(request,"create_book.html",context=data)
+
 #book_G_views
-def welcom(request):
+def welcome(request):
     pass
-    return render(request, "welcom.html")
+    return render(request, "welcome.html")
 def show_gtype(request):
     pass
     return render(request,"bookhome.html")

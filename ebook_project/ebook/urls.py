@@ -5,6 +5,9 @@ urlpatterns = [
     path('', views.main, name='main'),
     path('signin/', views.signin, name='signin'),
     path('signup/', views.signup, name='signup'),
+    path('cart/', views.cart, name='cart'),
+    path('createbook/', views.create_book, name="create-book"),
+    path('new_books_list/', views.new_books_list, name="new_books_list"),
     #book_G_views
     path('show/',views.show_gtype,name='show_gtype'),
     path('science/',views.science_book, name='science_book'),
