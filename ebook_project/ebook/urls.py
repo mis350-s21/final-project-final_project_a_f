@@ -8,6 +8,7 @@ urlpatterns = [
     path('cart/', views.cart, name='cart'),
     path('createbook/', views.create_book, name='create-book'),
     path('new_books_list/', views.new_books_list, name='new_books_list'),
+
     #book_G_views
     path('show/',views.show_gtype,name='show_gtype'),
     path('science/',views.science_book, name='science_book'),
@@ -18,6 +19,7 @@ urlpatterns = [
     path('search/',views.search),
     path('search/<str:title>/',views.search_t,name='search-title'),
     path('type/<str:title>/',views.show_type),
-    path('details_cart/',views.details_cart)
+    path('details_cart/',views.details_cart),
+  path('deletebook<int:bid>/', views.delete_book, name='delete-book'),
 
 ]
