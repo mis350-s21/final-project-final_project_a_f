@@ -59,9 +59,7 @@ def science_book(request):
 def learn_book(request):
     pass
     return render(request,"learn.html")
-def history_book(request):
-    pass
-    return render(request,"history.html")
+
 def cook_book(request):
     pass
     return render(request,"cook.html")
@@ -89,3 +87,21 @@ def show_type(request,title):
     data['title_s'] = book
     data['type'] = gener
     return render(request, "show_type.html", context=data)
+
+def history_book(request):
+    pass
+    return render(request,"history.html")
+def add_cart(request):
+    data={}
+    return render(request, "history.html", context=data)
+
+
+def del_cart(request):
+    data={}
+    return render(request, ".html", context=data)
+def upd_cart(request):
+    data={}
+    return render(request, ".html", context=data)
+def details_cart(request):
+    data={}
+    return render(request, "cart_det.html", context=data)
