@@ -15,5 +15,6 @@ urlpatterns = [
     path('search/',views.search),
     path('search/<str:title>/',views.search_t,name='search-title'),
     path('type/<str:title>/',views.show_type),
+    path('details_cart/',views.details_cart)
 
 ]
