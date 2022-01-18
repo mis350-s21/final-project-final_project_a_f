@@ -46,6 +46,12 @@ def create_book(request):
         return redirect("new_books_list")
     return render(request,"create_book.html",context=data)
 
+def delete_book(request, bid):
+    b = get_object_or_404(Book, id = bid)
+    b.delete()
+    return redirect("new_books_list")
+
+
 #book_G_views
 def welcome(request):
     pass
