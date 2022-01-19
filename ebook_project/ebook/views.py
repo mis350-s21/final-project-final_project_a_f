@@ -47,9 +47,22 @@ def create_book(request):
     return render(request,"create_book.html",context=data)
 
 def delete_book(request, bid):
+    
     b = get_object_or_404(Book, id = bid)
     b.delete()
     return redirect("new_books_list")
+#new
+def edit_book(request, bid):
+    book = get_object_or_404(Book, id=bid)
+    f = BookForm(request.POST or None, instance=book)
+    data = {
+    "book": book,
+    "form": f,
+    }
+    if f.is_valid():
+        f.save()
+        return redirect("new_books_list", bid=book.id)
+    return render(request, "edit_book.html", context=data)    
 
 
 #book_G_views

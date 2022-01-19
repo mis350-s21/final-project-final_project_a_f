@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+
+        {% csrf_token %}
+        
+        {{ form.as_p }}
+        
+        <input type="submit" value="SAVE">
+        
+        </form>
+        
+        
+        
+        <h3>Car Details for Book: {{ book.title }}</h3>
+        
+        <table border="1">
+        
+        <tr bgcolor="LightGrey">
+        
+        <td align="center">Title</td>
+        
+        <td align="center">Description</td>
+        
+        <td align="center">Price</td>
+        
+        <td align="center">Inventory</td>
+        
+        </tr>{% for b in book.book_set.all %}
+
+        <tr>
+        
+        <td align="center">>{{ b.title }}</td>
+        
+        <td align="center">{{ b.discription }}</td>
+        
+        <td align="center">{{ b.price }}</td>
+        
+        <td align="center">{{ b.inventory }}</td>
+        
+        <td align="center"><a href="/ebook/deletebook/{{b.id}}"><button type="button">DELETE</button></a></td>
+        
+        </tr>
+        
+        {% endfor %}
+        
+        </table><BR>
+        
+        <a href="/ebook/editbook/{{ book.id }}"><button type="button">ADD NEW CAR</button></a>
+        
+        <br><a href="/ebook/createbook/">BACK</a> 
+</body>
+</html>
