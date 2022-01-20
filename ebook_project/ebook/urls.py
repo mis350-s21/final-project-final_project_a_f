@@ -20,7 +20,7 @@ urlpatterns = [
     path('search/<str:title>/',views.search_t,name='search-title'),
     path('type/<str:title>/',views.show_type),
     path('details_cart/',views.details_cart),
-  path('deletebook/<int:bid>/', views.delete_book, name='delete-book'),
-  path('editbook/<int:bid>/', views.edit_book, name='edit-book'),
+    path('deletebook/<int:bid>/', views.delete_book, name='delete-book'),
+    path('editbook/<int:bid>/', views.edit_book, name='edit-book'),
 
 ]
